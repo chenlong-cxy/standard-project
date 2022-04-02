@@ -1,19 +1,23 @@
-﻿生成启动时间为 2022/3/28 22:01:18。
-     1>项目“D:\code\ConcurrentMemoryPool\ConcurrentMemoryPool\ConcurrentMemoryPool.vcxproj”在节点 2 上(Build 个目标)。
+﻿生成启动时间为 2022/4/2 22:22:06。
+     1>项目“D:\github\standard-project\ConcurrentMemoryPool\ConcurrentMemoryPool\ConcurrentMemoryPool.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Benchmark.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Benchmark.cpp UnitTest.cpp
          Benchmark.cpp
+         正在生成代码...
+         正在编译...
+         UnitTest.cpp
+         正在生成代码...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\code\ConcurrentMemoryPool\Debug\ConcurrentMemoryPool.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\code\ConcurrentMemoryPool\Debug\ConcurrentMemoryPool.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\code\ConcurrentMemoryPool\Debug\ConcurrentMemoryPool.lib" /MACHINE:X86 /PROFILE Debug\Benchmark.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\github\standard-project\ConcurrentMemoryPool\Debug\ConcurrentMemoryPool.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\github\standard-project\ConcurrentMemoryPool\Debug\ConcurrentMemoryPool.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\github\standard-project\ConcurrentMemoryPool\Debug\ConcurrentMemoryPool.lib" /MACHINE:X86 /PROFILE Debug\Benchmark.obj
          Debug\CentralCache.obj
          Debug\PageCache.obj
          Debug\ThreadCache.obj
          Debug\UnitTest.obj
      1>LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/PROFILE”规范)
      1>Benchmark.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:LBR”规范)
-         ConcurrentMemoryPool.vcxproj -> D:\code\ConcurrentMemoryPool\Debug\ConcurrentMemoryPool.exe
-     1>已完成生成项目“D:\code\ConcurrentMemoryPool\ConcurrentMemoryPool\ConcurrentMemoryPool.vcxproj”(Build 个目标)的操作。
+         ConcurrentMemoryPool.vcxproj -> D:\github\standard-project\ConcurrentMemoryPool\Debug\ConcurrentMemoryPool.exe
+     1>已完成生成项目“D:\github\standard-project\ConcurrentMemoryPool\ConcurrentMemoryPool\ConcurrentMemoryPool.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:01.94
+已用时间 00:00:02.44
