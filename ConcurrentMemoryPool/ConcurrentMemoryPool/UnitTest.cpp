@@ -95,12 +95,13 @@ void BigAlloc()
 }
 //int main()
 //{
+//	TLSTest();
 //	//TestObjectPool();
 //	//TLSTest();
 //	//cout << sizeof(size_t) << endl;
 //	//TestConcurrentAlloc1();
 //	//TestConcurrentAlloc2();
-//	MultiThreadAllocTest();
+//	//MultiThreadAllocTest();
 //	//BigAlloc();
 //	//cout << (16 * 1024)/sizeof(ThreadCache) << endl;
 //	//cout << 128 * 1024 << endl;

@@ -5,7 +5,6 @@
 //template<size_t N> //非类型模板参数
 //class ObjectPool
 //{};
-
 //定长内存池
 template<class T>
 class ObjectPool
@@ -64,7 +63,6 @@ private:
 
 	void* _freeList = nullptr;   //还回来过程中链接的自由链表的头指针
 };
-
 
 //struct TreeNode
 //{

@@ -5,7 +5,6 @@
 #include "PageCache.h"
 #include "ObjectPool.h"
 
-
 static void* ConcurrentAlloc(size_t size)
 {
 	if (size > MAX_BYTES) //大于256KB的内存申请
@@ -28,9 +27,13 @@ static void* ConcurrentAlloc(size_t size)
 		//通过TLS，每个线程无锁的获取自己专属的ThreadCache对象
 		if (pTLSThreadCache == nullptr)
 		{
+			static std::mutex tcMtx;
+			//cout << std::this_thread::get_id() <<"  "<<&tcMtx<< endl;
 			static ObjectPool<ThreadCache> tcPool;
+			tcMtx.lock();
 			//pTLSThreadCache = new ThreadCache;
 			pTLSThreadCache = tcPool.New();
+			tcMtx.unlock();
 		}
 		//cout << std::this_thread::get_id() << ":" << pTLSThreadCache << endl;
 
