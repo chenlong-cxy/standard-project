@@ -1,9 +1,10 @@
-﻿生成启动时间为 2022/6/11 16:54:48。
+﻿生成启动时间为 2022/6/15 21:01:36。
      1>项目“D:\github\standard-project\ConcurrentMemoryPool\ConcurrentMemoryPool\ConcurrentMemoryPool.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Benchmark.cpp UnitTest.cpp
          Benchmark.cpp
          正在生成代码...
+     1>cl : 命令行 warning D9028: 最小重新生成失败，正在转换为标准生成
          正在编译...
          UnitTest.cpp
          正在生成代码...
@@ -20,4 +21,4 @@
 
 生成成功。
 
-已用时间 00:00:02.06
+已用时间 00:00:02.89
